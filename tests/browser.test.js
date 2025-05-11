@@ -38,5 +38,5 @@ describe('Clicking "Pusha till stacken"', () => {
 //egen test 
 test('page should have correct title', async () => {
     const title = await driver.getTitle();
-    expect(title).toBe('Stack Testi');
+    expect(title).toBe('Stack Test');
 });

@@ -25,5 +25,5 @@ test('pop decreases the stack size by one', () => {
     stack.push("två");
     stack.pop();
     const top = stack.peek();
-    expect(top).toBe("tre"); 
+    expect(top).toBe("ett"); 
 });
