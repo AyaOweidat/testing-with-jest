@@ -34,3 +34,9 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
+
+//egen test 
+test('page should have correct title', async () => {
+    const title = await driver.getTitle();
+    expect(title).toBe('Två stack');
+});
